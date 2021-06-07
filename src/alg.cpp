@@ -19,8 +19,7 @@ int prioritet(char ch) {
         return -1;
     }
 }
-std::string infx2pstfx(std::string inf)
-{
+std::string infx2pstfx(std::string inf){
   std::string pstfx;
     int i = 0;
     char ch = inf[i];
